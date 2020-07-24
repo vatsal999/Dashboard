@@ -130,9 +130,41 @@ header .right i{
     box-sizing: border-box;
     border: 1px solid #9E9E9F;
 }
+
+
 /* navbar */
 /* edit buttons */
+
+
 .functionicons{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top:30px;
+    align-items: center;
 }
+.functionicons .left{
+    margin-left: 20px;
+}
+
+.functionicons .left i{
+    margin-right: 20px;
+    color:#3c3c3f ;
+    font-size: 20px;
+}
+.functionicons .left i:hover{
+    color: #f3355e;
+}
+
+.functionicons .right{
+    background-color: #f3355e;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.functionicons .right a{
+    color: white;
+}
+.functionicons .right i{
+    color: white;
+}
+/* edit buttons */
