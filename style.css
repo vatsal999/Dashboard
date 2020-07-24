@@ -167,4 +167,51 @@ header .right i{
 .functionicons .right i{
     color: white;
 }
+.functionicons .right:hover , .functionicons .left i:hover{
+    cursor: pointer;
+}
+
 /* edit buttons */
+/* maindata */
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+
+}
+.item{
+    background-color: white;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #9E9E9F;
+}
+
+/* maindata */
+/* pagination*/
+
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.pagination ul {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.pagination ul li{
+    margin-left: 30px;
+}
+.pagination ul li a{
+    color: #414144;
+    font-weight: 700;
+}
+.pagination .pagecounter{
+    color:#414144 ;
+}
+.pagination ul li a:hover{
+    color:#f3355e;
+}
