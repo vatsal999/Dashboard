@@ -189,6 +189,33 @@ header .right i{
     box-shadow: 0 0 5px #9E9E9F;
 }
 
+.item .smallinfo{
+    text-align: right;
+}
+
+.item .title{
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+}
+
+.item .completion{
+    font-size: 20px;
+}
+.item .projectidtitle{
+    margin: 10px 0;
+    font-weight: 600;
+}
+.id {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0 ;
+    align-items: center;
+}
+.id h4{
+    font-size: 20px;
+    color: #9E9E9F;
+}
 /* maindata */
 /* pagination*/
 
