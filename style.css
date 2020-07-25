@@ -242,3 +242,66 @@ header .right i{
 .pagination ul li a:hover{
     color:#f3355e;
 }
+
+/* media queries */
+
+@media only screen and (max-width:1020px) and (min-width:701px){
+    .grid{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pagination{
+        display: block;
+    }
+    .pagination p{
+        text-align: center;
+    }
+    .pagination ul {
+        margin: 10px 0;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:700px){
+
+    
+    .nav{
+        display: block;
+        text-align: center;
+    }
+    .nav ul{
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+    .nav input{
+        width: 40vw;
+    }
+    .functionicons{
+        margin: 20px 0;
+    }
+    .functionicons .right a{
+        display: none;
+    }
+    .functionicons .right {
+        margin-right: 20px;
+        padding: 10px 15px;
+    }
+    
+    /* old props */
+    .grid{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pagination{
+        display: block;
+    }
+    .pagination p{
+        text-align: center;
+    }
+    .pagination ul {
+        margin: 10px 0;
+        justify-content: center;
+    }
+}
