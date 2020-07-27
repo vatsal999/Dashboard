@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     font-family: "Open Sans",sans-serif;
+    list-style: none;
 }
 a{
     text-decoration: none;
@@ -216,6 +217,39 @@ header .right i{
     font-size: 20px;
     color: #9E9E9F;
 }
+.item li{
+    margin: 20px 0;
+}
+ .bar{
+    height: 3px;
+    background-color: #d7d7e2;
+    display: block;
+}
+.bar span {
+    height: 3px;
+    float: left;
+    background-color: #8F25A9;
+}
+
+.item1{
+    width: 62%;
+}
+.item2{
+    width: 52%;
+}
+.item3{
+    width: 45%;
+}
+.item4{
+    width: 89%;
+}
+.item5{
+    width: 34%;
+}
+.item6{
+    width: 77%;
+}
+
 /* maindata */
 /* pagination*/
 
